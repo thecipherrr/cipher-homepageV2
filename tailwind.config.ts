@@ -15,11 +15,14 @@ const config: Config = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        teko: ["Teko", "sans-serif"]
+        teko: ["Teko", "sans-serif"],
+        roboto: ["Roboto Mono", "monospace"]
       },
       colors: {
         'light-yellow': '#F9F3CC',
-        'pastel-violet': '#8EACCD'
+        'pastel-violet': '#8EACCD',
+        'onehalfdark': '#282C34',
+        'bluu': '#66d9ed'
       }
     },
   },

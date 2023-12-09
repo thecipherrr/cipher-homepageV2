@@ -1,11 +1,12 @@
 const Hero = () => {
   return (
-    <div className="h-screen bg-white">
-      <div className="flex flex-col items-center justify-center mx-auto">
-        <div className="text-8xl text-black p-40 font-teko">
-          EDWARD MATTHEW
-        </div>
-      </div>
+    <div className="flex flex-col w-screen items-center justify-center bg-transparent m-auto py-24 lg:py-48">
+      <h1 className="font-roboto font-black text-8xl text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-bluu p-4">
+        Hi! I&#39;m
+      </h1>
+      <h1 className="font-roboto font-black text-8xl text-center font-white">
+        Edward
+      </h1>
     </div>
   )
 }

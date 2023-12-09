@@ -5,16 +5,17 @@ import Hero from "@/components/hero";
 
 const Home = () => {
   return (
-    <>
-      <Head>
-        <title>
-          Cipher
-        </title>
-      </Head>
+    <div className="h-screen bg-gradient-radial from-blue-900 from-10% to-black to-90%">
+      <div className="h-screen w-screen bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-60">
+        <Head>
+          <title>Cipher&#39;s Homepage</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head >
+        <Nav />
+        <Hero />
+      </div>
+    </div >
 
-      <Nav />
-      <Hero />
-    </>
   )
 }
 
