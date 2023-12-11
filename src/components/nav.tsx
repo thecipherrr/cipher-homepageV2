@@ -13,11 +13,8 @@ const Nav = () => {
             <a href="#" className="transition-colors ease-in-out hover:text-bluu duration-300">
               02. Projects
             </a>
-            <a href="https://github.com/thecipherrr" target="_blank" className="transition-colors ease-in-out hover:text-bluu duration-300">
-              03. GitHub
-            </a>
             <a href="#" className="transition-colors ease-in-out hover:text-bluu duration-300">
-              04. Contact
+              03. Contact
             </a>
           </div>
         </div>
